@@ -30,7 +30,7 @@ div h1{
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 20px;
     padding-top: 20px;
     
@@ -55,13 +55,16 @@ p {
    display: inline;
    padding-top: 50%;
    
+   
+   
+   
 }
 
 
 .Bio {
 
     display: flex;
-    padding-top: 20px;
+    padding-top: 15px;
 } 
 
 .Header {
@@ -69,9 +72,8 @@ p {
     display: flex;
 }
 .Text {
-
-    /* text-align: c; */
-    padding: 70px 0;
+    float: right;
+    
 }
   
 
@@ -87,6 +89,7 @@ section {
     border: #dddddd;
     width: 960px;
     margin: 50px auto;
+    height: 400px;
 
 
 
@@ -101,7 +104,7 @@ h2{
 
     background-color: #ffffff;
     border: #dddddd;
-    width: 560px;
+    width: 960px;
     height: 450px;
     margin: 50px auto;
 
@@ -115,15 +118,15 @@ form {
 }
 
 input[type="text"] {
-    width: 500px;
+    width: 95%;
     height: 20px;
     
 }
 
 textarea {
     text-align: left;
-    width: 500px;
-    height: 50px;
+    width: 95%;
+    height: 100px;
 
 }
 input[type="Submit"] {
@@ -143,20 +146,30 @@ input[type="Submit"] {
 .Portfolio {
     background-color: #ffffff;
     border: #dddddd;
-    width: 560px;
-    height: 400px;
+    width: 960px;
+    height: 490px;
     margin: 50px auto;
 
 }
-
+.NavigationTabs {
+    font
+}
 
 img{
 
-    height: 500px;
-    width: 700px;
+    height: 200px;
     vertical-align: middle;
-    margin: 50px auto;
+    margin: 15px auto;
     margin-left: 20px;
+    float :left;
+}
+.Basketball {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 908px;
+    height: 300px;
+    justify-content: space-between;
 
 }
 
@@ -193,11 +206,10 @@ ul li {
 ul li a {
     display: block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #9e9d9d;
-    padding: 0 20px;
-    margin-right: 20px;
+    margin-right: 60px;
 
 
 }
@@ -210,13 +222,20 @@ ul li a:hover {
 
 footer {
 
-    background-color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 50px;
-    border-top: #4aaaa5;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #777777;
+   border-top: #4aaaa5;
+   border-top-width: 10px;
+   border-style: solid;
+   color: white;
+   text-align: center;
+   height: 50px;
+   text-align: center;
+   padding-top: 15px;
+  
         
  }
  
